@@ -25,7 +25,7 @@ $result_penghuni = mysqli_query($conn, $query_penghuni);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard SmartKos (Admin)</title>
+    <title>Dashboard Jersey Kos (Admin)</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -35,7 +35,7 @@ $result_penghuni = mysqli_query($conn, $query_penghuni);
     <div class="sidebar">
         <div class="sidebar-title">
             <div class="sidebar-bar"></div>
-            <span>SmartKos</span>
+            <span>Jersey Kos</span>
         </div>
         <nav class="sidebar-nav">
             <a href="index.php" class="active"><i class="fas fa-home"></i> &nbsp;Dashboard</a>

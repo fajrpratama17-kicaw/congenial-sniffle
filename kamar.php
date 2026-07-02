@@ -18,7 +18,7 @@ $result_all_kamar = mysqli_query($conn, $query_all_kamar);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manajemen Kamar - SmartKos</title>
+    <title>Manajemen Kamar - Jersey Kos</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
@@ -27,7 +27,7 @@ $result_all_kamar = mysqli_query($conn, $query_all_kamar);
     <div class="sidebar">
         <div class="sidebar-title">
             <div class="sidebar-bar"></div>
-            <span>SmartKos</span>
+            <span>Jersey Kos</span>
         </div>
         <nav class="sidebar-nav">
             <a href="index.php"><i class="fas fa-home"></i> &nbsp;Dashboard</a>
