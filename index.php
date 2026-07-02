@@ -26,14 +26,12 @@ $result_penghuni = mysqli_query($conn, $query_penghuni);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard SmartKos (Admin)</title>
-    <!-- Memanggil Gaya Kustom Bergaya PPT -->
+
     <link rel="stylesheet" href="style.css">
-    <!-- Icon FontAwesome untuk ikon di kartu -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
-    <!-- Sidebar Menu (Light Style) -->
     <div class="sidebar">
         <div class="sidebar-title">
             <div class="sidebar-bar"></div>
@@ -55,7 +53,6 @@ $result_penghuni = mysqli_query($conn, $query_penghuni);
             <p class="subtitle">Halo, Admin. Berikut ringkasan status kos untuk tanggal <?php echo date('d F Y'); ?>.</p>
         </div>
 
-        <!-- Cards Statistik (Constraint-style cards from image_0.png) -->
         <div class="cards-container">
             <div class="card">
                 <i class="fas fa-building card-icon"></i>

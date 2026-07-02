@@ -37,7 +37,7 @@ body {
 .sidebar-bar {
     width: 6px;
     height: 28px;
-    background-color: #3c54c3; /* Blue bar like in PPT title */
+    background-color: #3c54c3; 
     border-radius: 4px;
 }
 
@@ -96,7 +96,7 @@ body {
 .title-bar {
     width: 6px;
     height: 36px;
-    background-color: #3c54c3; /* Blue bar again */
+    background-color: #3c54c3; 
     border-radius: 4px;
 }
 
@@ -128,12 +128,12 @@ body {
     bottom: -15px;
     right: -15px;
     font-size: 80px;
-    color: rgba(60, 84, 195, 0.08); /* Faint icon like a background element */
+    color: rgba(60, 84, 195, 0.08); 
     transform: rotate(-15deg);
 }
 
 .card-title {
-    color: #3c54c3; /* Purple/Blue accent color */
+    color: #3c54c3; 
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 12px;
