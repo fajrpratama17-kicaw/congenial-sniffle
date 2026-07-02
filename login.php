@@ -12,7 +12,7 @@ if (isset($_SESSION['admin_logged_in'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login SmartKos</title>
+    <title>Jersey Kos</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
@@ -20,7 +20,7 @@ if (isset($_SESSION['admin_logged_in'])) {
 
     <div class="login-card">
         <div class="login-header">
-            <h2>Admin Login</h2>
+            <h2>Jersey Kos</h2>
             <p>321 Chancellor Ave, Newark, NJ 07112.</p>
         </div>
 
