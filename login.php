@@ -20,8 +20,8 @@ if (isset($_SESSION['admin_logged_in'])) {
 
     <div class="login-card">
         <div class="login-header">
-            <h2>🏠 SmartKos Login</h2>
-            <p>Masukkan akun admin untuk mengakses dasbor.</p>
+            <h2>Admin Login</h2>
+            <p>321 Chancellor Ave, Newark, NJ 07112.</p>
         </div>
 
         <?php if (isset($_GET['pesan']) && $_GET['pesan'] == 'gagal'): ?>
