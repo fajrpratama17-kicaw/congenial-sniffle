@@ -50,7 +50,7 @@ $result_penghuni = mysqli_query($conn, $query_penghuni);
     <div class="main-content">
         <div class="header">
             <h1><div class="title-bar"></div> Dasbor Manajemen Kos</h1>
-            <p class="subtitle">Halo, Admin. Berikut ringkasan status kos untuk tanggal <?php echo date('d F Y'); ?>.</p>
+            <p class="subtitle">Halo, <?php echo $_SESSION['admin_username']; ?>. Berikut ringkasan status kos untuk tanggal <?php echo date('d F Y'); ?>.</p>
         </div>
 
         <div class="cards-container">
